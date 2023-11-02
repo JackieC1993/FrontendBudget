@@ -1,4 +1,4 @@
-import addTransactionForm from "../components/AddTransactionForm";
+import AddTransactionForm from "./components/AddTransactionForm";
 
 function AddInfo(){
  return(
