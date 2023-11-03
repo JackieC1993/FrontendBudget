@@ -4,7 +4,7 @@ function AddTransaction() {
     return (
 
         <div>
-            <Form>
+            <form>
                 <h1>Add a Transaction</h1>
                 <label>
                     <input type="text" placeholder="Description" />
@@ -19,7 +19,7 @@ function AddTransaction() {
                     <input type="text" placeholder="Category" />
                 </label>
                 <button type="submit">Submit</button>
-            </Form>
+            </form>
         This is the addTransaction form.
         </div>
             )
