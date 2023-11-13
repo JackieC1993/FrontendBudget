@@ -6,7 +6,8 @@ import NavBar from './components/NavBar'
 import AddTransactionForm from './components/AddTransactionForm'
 import TransactionCard from './components/TransactionCard'
 import LoginForms from './components/LoginForm'
-
+import Frame from './components/Frame'
+import './components/styles.css'
 
 function App() {
 return(
@@ -14,6 +15,7 @@ return(
   <Router>
     <NavBar />
     <Routes>
+      <Route path= "/home" element = {<Frame/>} />
       <Route path="/" element={<LoginForms />} />
       <Route path="/transactions/:index" element={<TransactionCard />} />
       <Route path="/transactions" element={<ShowAllTransactions />} />

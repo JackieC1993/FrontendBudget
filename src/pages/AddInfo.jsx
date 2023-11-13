@@ -1,12 +1,12 @@
 
-function AddInfo(){
+// function AddInfo(){
 
     
- return(
-    <div>
-        <addTransactionForm/>
-    </div>
- )
-}
+//  return(
+//     <div>
+//         <addTransactionForm/>
+//     </div>
+//  )
+// }
 
-export default AddInfo;
+// export default AddInfo;

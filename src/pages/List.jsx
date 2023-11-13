@@ -1,11 +1,11 @@
-import TransactionList from "../components/TransactionList";
+// import TransactionList from "../components/TransactionList";
 
-function List (){
-    return(
-        <div>
-            <TransactionList/>
-        </div>
-    )   
-}
+// function List (){
+//     return(
+//         <div>
+//             {/* <TransactionList/> */}
+//         </div>
+//     )   
+// }
 
-export default List;
+// export default List;

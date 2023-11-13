@@ -11,7 +11,7 @@ function NavBar() {
         <h1 className="logo">Logo</h1>
         <button type="button" 
         onClick={newTransactions} >
-            <Link to="/pages">Add Transactions</Link>
+            <Link to="/transactions/new">Add Transactions</Link>
             </button>
       </header>
         </>

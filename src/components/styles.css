@@ -1,0 +1,757 @@
+.frame {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .div {
+    background: linear-gradient(180deg, rgb(32.51, 48.41, 72.25) 0%, rgb(67, 33, 72) 100%);
+    background-color: rgba(255, 255, 255, 1);
+    height: 812px;
+    overflow: hidden;
+    position: relative;
+    width: 375px;
+  }
+
+  
+  .frame .img {
+    height: 194px;
+    left: 1385px;
+    object-fit: cover;
+    position: absolute;
+    top: 443px;
+    width: 197px;
+  }
+  
+  .frame .overlap {
+    height: 277px;
+    left: 378px;
+    position: absolute;
+    top: 161px;
+    width: 416px;
+  }
+  
+  .frame .group {
+    height: 185px;
+    left: 23px;
+    position: absolute;
+    top: 46px;
+    transform: rotate(-20.65deg);
+    width: 295px;
+  } 
+  
+  .frame .overlap-group {
+    -webkit-backdrop-filter: blur(17.45px) brightness(100%);
+    backdrop-filter: blur(17.45px) brightness(100%);
+    background-color: #ffffff33;
+    border-radius: 22.44px;
+    box-shadow: 0px 16.21px 14.96px #0a262812;
+    height: 185px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 287px;
+  }
+  
+  .frame .text-wrapper {
+    color: #ffffff;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 13.7px;
+    font-weight: 500;
+    left: 23px;
+    letter-spacing: 3.74px;
+    line-height: normal;
+    opacity: 0.9;
+    position: absolute;
+    top: 140px;
+    white-space: nowrap;
+    width: 54px;
+  }
+  
+  .frame .element {
+    color: #ffffff;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 13.7px;
+    font-weight: 500;
+    left: 23px;
+    letter-spacing: 3.74px;
+    line-height: normal;
+    opacity: 0.9;
+    position: absolute;
+    top: 98px;
+    white-space: nowrap;
+    width: 207px;
+  }
+  
+  .frame .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "SF Pro Display-Semibold", Helvetica;
+    font-size: 26.1px;
+    font-weight: 400;
+    left: 21px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 46px;
+    white-space: nowrap;
+    width: 135px;
+  }
+  
+  .frame .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 13.1px;
+    font-weight: 400;
+    left: 21px;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.54;
+    position: absolute;
+    top: 25px;
+    white-space: nowrap;
+    width: 118px;
+  }
+  
+  .frame .mastercard-logo {
+    height: 34px;
+    left: 1624px;
+    position: absolute;
+    top: 927px;
+    transform: rotate(20.65deg);
+    width: 42px;
+  }
+  
+  .frame .group-2 {
+    height: 173px;
+    left: 139px;
+    position: absolute;
+    top: 24px;
+    width: 277px;
+  }
+  
+  .frame .overlap-2 {
+    border-radius: 14.05px;
+    height: 173px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 269px;
+  }
+  
+  .frame .rectangle {
+    -webkit-backdrop-filter: blur(16.35px) brightness(100%);
+    backdrop-filter: blur(16.35px) brightness(100%);
+    background-color: #ffffff33;
+    border: 0.94px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0)) 1;
+    border-radius: 14.05px;
+    box-shadow: 0px 15.18px 14.02px #0a262812;
+    height: 173px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 269px;
+  }
+  
+  .frame .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 12.8px;
+    font-weight: 500;
+    left: 21px;
+    letter-spacing: 3.5px;
+    line-height: normal;
+    opacity: 0.9;
+    position: absolute;
+    text-shadow: 0px 1.87px 4.68px #00000040;
+    top: 132px;
+    white-space: nowrap;
+    width: 50px;
+  }
+  
+  .frame .element-2 {
+    color: #ffffff;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 12.8px;
+    font-weight: 500;
+    left: 21px;
+    letter-spacing: 3.5px;
+    line-height: normal;
+    opacity: 0.9;
+    position: absolute;
+    text-shadow: 0px 1.87px 4.68px #00000040;
+    top: 92px;
+    white-space: nowrap;
+    width: 194px;
+  }
+  
+  .frame .element-3 {
+    color: #ffffff;
+    font-family: "SF Pro Display-Semibold", Helvetica;
+    font-size: 24.5px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-shadow: 0px 1.87px 4.68px #00000040;
+    top: 43px;
+    white-space: nowrap;
+    width: 127px;
+  }
+  
+  .frame .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 12.2px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.54;
+    position: absolute;
+    top: 24px;
+    white-space: nowrap;
+    width: 110px;
+  }
+  
+  .frame .mastercard-logo-2 {
+    height: 31px;
+    left: 1806px;
+    position: absolute;
+    top: 366px;
+    width: 39px;
+  }
+  
+  .frame .image-2 {
+    height: 77px;
+    left: 335px;
+    object-fit: cover;
+    position: absolute;
+    top: 350px;
+    width: 40px;
+  }
+  
+  .frame .overlap-3 {
+    height: 154px;
+    left: 65px;
+    position: absolute;
+    top: 306px;
+    width: 233px;
+  }
+  
+  
+  .frame .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 50px;
+    font-weight: 400;
+    left: 18px;
+    letter-spacing: 3.74px;
+    line-height: normal;
+    position: absolute;
+    top: 33px;
+    white-space: nowrap;
+  }
+  
+  .frame .image-4 {
+    height: 109px;
+    left: 344px;
+    object-fit: cover;
+    position: absolute;
+    top: 121px;
+    width: 31px;
+  }
+  
+  .frame .group-3 {
+    height: 70px;
+    left: 16px;
+    position: absolute;
+    top: 653px;
+    width: 101px;
+  }
+  
+  .frame .container-background {
+    height: 70px;
+    left: 1593px;
+    position: absolute;
+    top: 244px;
+    width: 101px;
+  }
+  
+  .frame .icon-face-ID {
+    background-image: url(./face-id.svg);
+    background-size: 100% 100%;
+    height: 36px;
+    left: 33px;
+    position: absolute;
+    top: 17px;
+    width: 36px;
+  }
+  
+  .frame .group-4 {
+    height: 70px;
+    left: 258px;
+    position: absolute;
+    top: 653px;
+    width: 101px;
+  }
+  
+  .frame .vector {
+    height: 10px;
+    left: 42px;
+    position: absolute;
+    top: 30px;
+    width: 18px;
+  }
+  
+  .frame .group-5 {
+    height: 70px;
+    left: 137px;
+    position: absolute;
+    top: 653px;
+    width: 101px;
+  }
+  
+  .frame .text-wrapper-7 {
+    color: var(--white);
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 724px;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-8 {
+    color: var(--white);
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 179px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 724px;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-9 {
+    color: var(--white);
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 164px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 605px;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-10 {
+    color: var(--white);
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 295px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 724px;
+    white-space: nowrap;
+  }
+  
+  .frame .overlap-4 {
+    height: 463px;
+    left: 0;
+    position: absolute;
+    top: 813px;
+    width: 377px;
+  }
+  
+  .frame .iphone-x-pro {
+    -webkit-backdrop-filter: blur(17.45px) brightness(100%);
+    backdrop-filter: blur(17.45px) brightness(100%);
+    background-color: #ffffff;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 0px 16.21px 14.96px #0a262812;
+    height: 121px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+  }
+  
+  .frame .tabs {
+    height: 49px;
+    left: -3px;
+    position: relative;
+    top: 9px;
+    width: 380px;
+  }
+  
+  .frame .nav-item-light {
+    height: 49px;
+    left: 8px;
+    position: absolute;
+    top: 0;
+    width: 76px;
+  }
+  
+  .frame .icon {
+    height: 24px;
+    left: 1613px;
+    position: absolute;
+    top: -568px;
+    width: 24px;
+  }
+  
+  .frame .text-wrapper-11 {
+    color: #eb5757;
+    font-family: "SF Pro Text-Bold", Helvetica;
+    font-size: 10px;
+    font-weight: 700;
+    left: 16px;
+    letter-spacing: -0.24px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 33px;
+    white-space: nowrap;
+  }
+  
+  .frame .nav-item-light-2 {
+    height: 49px;
+    left: 105px;
+    position: absolute;
+    top: 0;
+    width: 76px;
+  }
+  
+  .frame .action-search {
+    height: 24px;
+    left: 1517px;
+    position: absolute;
+    top: -571px;
+    width: 24px;
+  }
+  
+  .frame .text-wrapper-12 {
+    color: var(--gray-3);
+    font-family: "SF Pro Text-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 16px;
+    letter-spacing: -0.24px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 33px;
+    white-space: nowrap;
+  }
+  
+  .frame .nav-item-light-3 {
+    height: 49px;
+    left: 200px;
+    position: absolute;
+    top: 0;
+    width: 76px;
+  }
+  
+  .frame .alert-error {
+    height: 24px;
+    left: 1422px;
+    position: absolute;
+    top: -571px;
+    width: 24px;
+  }
+  
+  .frame .text-wrapper-13 {
+    color: var(--gray-3);
+    font-family: "SF Pro Text-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 17px;
+    letter-spacing: -0.24px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 33px;
+    white-space: nowrap;
+  }
+  
+  .frame .nav-item-light-4 {
+    height: 49px;
+    left: 296px;
+    position: absolute;
+    top: 0;
+    width: 76px;
+  }
+  
+  .frame .mdi-people {
+    height: 24px;
+    left: 1326px;
+    position: absolute;
+    top: -571px;
+    width: 24px;
+  }
+  
+  .frame .text-wrapper-14 {
+    color: var(--gray-3);
+    font-family: "SF Pro Text-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 24px;
+    letter-spacing: -0.24px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 33px;
+    white-space: nowrap;
+  }
+  
+  .frame .overlap-wrapper {
+    height: 435px;
+    left: 0;
+    position: absolute;
+    top: 28px;
+    width: 377px;
+  }
+  
+  .frame .overlap-5 {
+    border-radius: 16.25px;
+    height: 435px;
+    position: relative;
+    width: 375px;
+  }
+  
+  .frame .rectangle-2 {
+    -webkit-backdrop-filter: blur(18.91px) brightness(100%);
+    backdrop-filter: blur(18.91px) brightness(100%);
+    background-color: #f0f2f4e6;
+    border: 1.08px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0)) 1;
+    border-radius: 16.25px;
+    box-shadow: 0px 17.56px 16.21px #0a262812;
+    height: 435px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+  }
+  
+  .frame .large-title {
+    color: #141414;
+    font-family: "SF Pro Display-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    left: 17px;
+    letter-spacing: 0.37px;
+    line-height: normal;
+    position: absolute;
+    top: 17px;
+    white-space: nowrap;
+  }
+  
+  .frame .group-6 {
+    height: 226px;
+    left: 17px;
+    position: absolute;
+    top: 61px;
+    width: 347px;
+  }
+  
+  .frame .p {
+    color: #141414;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.37px;
+    line-height: normal;
+    position: absolute;
+    top: 23px;
+    white-space: nowrap;
+  }
+  
+  .frame .span {
+    color: #141414;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.37px;
+  }
+  
+  .frame .large-title-2 {
+    color: #141414;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 25px;
+    letter-spacing: 0.37px;
+    line-height: normal;
+    position: absolute;
+    top: 1px;
+    white-space: nowrap;
+  }
+  
+  .frame .large-title-3 {
+    color: #141414;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.37px;
+    line-height: normal;
+    position: absolute;
+    top: 66px;
+    white-space: nowrap;
+  }
+  
+  .frame .group-7 {
+    height: 34px;
+    left: 0;
+    position: absolute;
+    top: 98px;
+    width: 321px;
+  }
+  
+  .frame .external-link {
+    height: 26px;
+    left: 1593px;
+    position: absolute;
+    top: 248px;
+    width: 26px;
+  }
+  
+  .frame .large-title-4 {
+    color: #141414;
+    font-family: "SF Pro Display-Semibold", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 38px;
+    letter-spacing: 0.37px;
+    line-height: 15px;
+    position: absolute;
+    top: 1px;
+    white-space: nowrap;
+  }
+  
+  .frame .large-title-5 {
+    color: var(--gray-3);
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 38px;
+    letter-spacing: 0.37px;
+    line-height: 15px;
+    position: absolute;
+    top: 18px;
+    white-space: nowrap;
+  }
+  
+  .frame .large-title-6 {
+    color: transparent;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 163px;
+    letter-spacing: 0.37px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .frame .text-wrapper-15 {
+    color: #141414;
+  }
+  
+  .frame .text-wrapper-16 {
+    color: #828282;
+  }
+  
+  .frame .group-8 {
+    height: 34px;
+    left: 0;
+    position: absolute;
+    top: 145px;
+    width: 303px;
+  }
+  
+  .frame .group-9 {
+    height: 34px;
+    left: 0;
+    position: absolute;
+    top: 192px;
+    width: 309px;
+  }
+  
+  .frame .external-link-2 {
+    height: 26px;
+    left: 1619px;
+    position: absolute;
+    top: 274px;
+    width: 26px;
+  }
+  
+  .frame .vector-2 {
+    height: 10px;
+    left: 1929px;
+    position: absolute;
+    top: 264px;
+    width: 5px;
+  }
+  
+  .frame .image-5 {
+    height: 20px;
+    left: 1593px;
+    object-fit: cover;
+    position: absolute;
+    top: 244px;
+    width: 20px;
+  }
+  
+  .frame .home-indicator {
+    background-color: #ffffff80;
+    border-radius: 100px;
+    height: 5px;
+    left: 120px;
+    position: absolute;
+    top: 799px;
+    width: 134px;
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      width: 100%;
+    }
+    #payment{
+      width: 100%;
+      text-align: center;
+    }
+    img.image-3{
+        width: 300%;
+        margin-left: 200px;
+        opacity: 55%;
+        border:  9px solid black;
+        border-radius: 100%;
+        border-left: 100px solid;
+        border-right:100px solid;
+        border-top: 100px solid;
+        border-bottom: 100px solid;
+        padding-block: 60px;
+        padding-inline: 60px;
+    }
+    }

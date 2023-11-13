@@ -28,7 +28,7 @@ function TransactionCard() {
         </button>
 
         {transactions.map((item, specificIndx) => {
-          if (index == specificIndx) {
+          if (index === specificIndx) {
             return (
               <div className="single" key={index} id={index}>
                 <div id="single-date">
@@ -43,8 +43,6 @@ function TransactionCard() {
             );
           }
         })}
-
-        <div></div>
       </>
     </>
   );
