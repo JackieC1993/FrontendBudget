@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import "../App";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 
 function ShowAllTransactions() {
   const { index } = useParams();
   const [transactions, setTransactions] = useState([]);
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -19,21 +19,31 @@ function ShowAllTransactions() {
         console.error("Fetch error:", error);
       }
     };
+
     fetchData();
-  }, []);
+  }, []); 
+
+  // Use the first transaction as a representative for the link
+  const firstTransaction = transactions[0];
+
   return (
     <>
-      {transactions.map((transaction) => (
-        <div id="transaction" key={transaction.id}>
+      {transactions.map((transaction, idx) => (
+        <div id={`${index}`} idx={transaction.id} key={idx}>
           <h1>
-            <Link to={`/transactions/${transaction.id}`}>{transaction.from}</Link>
+            <Link to={`/transactions/${idx}`}>{transaction.from}</Link>
           </h1>
           <h1>{transaction.date}</h1>
           <h1>{transaction.amount}</h1>
         </div>
       ))}
+
+      <Link to={`/transactions/${firstTransaction ? 0 : '' +1 }`}>
+        Go to First Transaction
+      </Link>
     </>
   );
 }
 
 export default ShowAllTransactions;
+

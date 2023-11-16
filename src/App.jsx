@@ -17,7 +17,7 @@ return(
     <Routes>
       <Route path= "/home" element = {<Frame/>} />
       <Route path="/" element={<LoginForms />} />
-      <Route path="/transactions/:index" element={<TransactionCard />} />
+      <Route path="/transactions/:idx" element={<TransactionCard />} />
       <Route path="/transactions" element={<ShowAllTransactions />} />
       <Route path="/transactions/new" element={<AddTransactionForm/>} />
     </Routes>
